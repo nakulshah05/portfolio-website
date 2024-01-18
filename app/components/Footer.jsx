@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="container p-12 flex justify-between">
     <Link href={"/"}>
          <span className="px-2 text-2xl md:text-5xl font-semibold italic hover:italic text-transparent bg-clip-text bg-gradient-to-r  from-blue-500 to-cyan-500">
-           G
+           NS
          </span>
        </Link>
       <p className="text-slate-600">All rights reserved.</p>
