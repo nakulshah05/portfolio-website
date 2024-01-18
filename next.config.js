@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+// next.config.js
+module.exports = {
+    env: {
+      API_KEY: process.env.EMAIL_API_KEY,
+    },
+  };
 
-module.exports = nextConfig
+// module.exports = nextConfig
